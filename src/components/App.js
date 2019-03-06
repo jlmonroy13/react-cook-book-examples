@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Timer from './Pomodoro/Timer';
+import Coins from './Coins/Coins';
 import Header from '../shared/components/layout/Header';
 import Content from '../shared/components/layout/Content';
 import Footer from '../shared/components/layout/Footer';
@@ -11,7 +11,7 @@ class App extends Component {
       <div className="App">
         <Header title="Todo List" />
         <Content>
-          <Timer />
+          <Coins />
         </Content>
         <Footer />
       </div>
