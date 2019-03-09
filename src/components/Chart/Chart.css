@@ -1,0 +1,16 @@
+p {
+  text-align: center;
+}
+button {
+  background: #159fff;
+  border: none;
+  color: white;
+  margin-left: 1em;
+  padding: 0.5em 2em;
+  text-transform: uppercase;
+}
+#chart {
+  background: #fff;
+  width: 90%;
+  margin: 1em auto;
+}
