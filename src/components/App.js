@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Chart from './Chart/Chart';
+import Animation from './Animation/Animation';
 import Header from '../shared/components/layout/Header';
 import Content from '../shared/components/layout/Content';
 import Footer from '../shared/components/layout/Footer';
@@ -30,12 +30,7 @@ export default class App extends Component {
         <Header title="Charts" />
         <Content>
           {' '}
-          <Chart columns={this.columns} chartType={this.state.chartType} />
-          <p>
-            Chart Type
-            <button onClick={this.setBarChart}>Bar</button>{' '}
-            <button onClick={this.setLineChart}>Line</button>
-          </p>
+          <Animation />
         </Content>
         <Footer />
       </div>
